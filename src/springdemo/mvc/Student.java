@@ -7,6 +7,7 @@ public class Student {
 	private String firstName;
 	private String lastName;
 	private String country;
+	private String language;
 	private LinkedHashMap<String,String> countryoptions;
 	public Student()
 	{
@@ -42,6 +43,14 @@ public class Student {
 
 	public LinkedHashMap<String, String> getCountryoptions() {
 		return countryoptions;
+	}
+
+	public String getLanguage() {
+		return language;
+	}
+
+	public void setLanguage(String language) {
+		this.language = language;
 	}
 	
 	

@@ -27,6 +27,14 @@ Country
 
 <br><br>
 
+Favourite Language:
+Java<form:radiobutton path="language" value ="Java"/>
+Node.js<form:radiobutton path="language" value="Node.js"/>
+React.js<form:radiobutton path="language" value="React.js"/>
+
+
+<br><br>
+
 <input type="submit" value="Submit">
 
 </form:form>
