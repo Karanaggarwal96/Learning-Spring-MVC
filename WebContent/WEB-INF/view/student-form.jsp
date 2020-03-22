@@ -7,13 +7,20 @@
 
 
 <title>Student Registration Form</title>
+<style>
+.error{
+color:red
+}
+
+</style>
 </head>
 <body>
 <form:form action="processForm"  modelAttribute="student">
 
 First Name:<form:input path="firstName"/>
 <br><br>
-Last Name:<form:input path="lastName"/>
+Last Name(*):<form:input path="lastName"/>
+<form:errors path="lastName" cssClass="error" />
 
 <br><br>
 
