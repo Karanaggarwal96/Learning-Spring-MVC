@@ -11,6 +11,10 @@ The Student is Confirmed ${student.firstName} ${student.lastName}
 
 <br><br>
 
+Postal Code: ${student.postalCode}
+
+<br><br>
+
 Country: ${student.country }
 
 <br><br>
@@ -27,6 +31,8 @@ Operating Systems:
 </c:forEach>
 </ul>
 
+
+Free Passes:${student.freepasses}
 </body>
 
 

@@ -34,6 +34,12 @@ Country
 
 <br><br>
 
+
+Postal Code:<form:input path="postalCode"/>
+<form:errors path="postalCode" cssClass="error"/>
+<br><br>
+
+
 Favourite Language:
 Java<form:radiobutton path="language" value ="Java"/>
 Node.js<form:radiobutton path="language" value="Node.js"/>
@@ -48,6 +54,11 @@ Windows<form:checkbox path="operatingsystems" value="Windows"/>
 Mac<form:checkbox path="operatingsystems" value="Mac"/>
 
 
+<br><br>
+
+Free Passes:
+<form:input path="freepasses"/>
+<form:errors path="freepasses" cssClass="error"/>
 <br><br>
 
 <input type="submit" value="Submit">
