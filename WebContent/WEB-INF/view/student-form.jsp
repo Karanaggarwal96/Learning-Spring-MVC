@@ -35,6 +35,14 @@ React.js<form:radiobutton path="language" value="React.js"/>
 
 <br><br>
 
+Favourite Operating Systems:
+Linux<form:checkbox path="operatingsystems" value="Linux"/>
+Windows<form:checkbox path="operatingsystems" value="Windows"/>
+Mac<form:checkbox path="operatingsystems" value="Mac"/>
+
+
+<br><br>
+
 <input type="submit" value="Submit">
 
 </form:form>
